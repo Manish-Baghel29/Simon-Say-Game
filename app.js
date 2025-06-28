@@ -11,8 +11,8 @@ let strBtn = document.querySelector('.start');
 strBtn.addEventListener("click" , function(){
     if(started == false){
         started = true;
-        hS++;
         levelUp();
+        hS++;
     }
 });
 
